@@ -340,7 +340,7 @@
                                     <svg class="bi">
                                         <use xlink:href="#door-closed" />
                                     </svg>
-                                    Sign out
+                                    <a class="nav-link d-flex justify-end ms-auto" aria-current="page" href="<?= base_url ?>/logout">Logout</a>
                                 </a>
                             </li>
                         </ul>

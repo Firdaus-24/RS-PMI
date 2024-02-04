@@ -13,7 +13,6 @@ class Dashboard extends Controller
     public function index()
     {
         $data['title'] = 'Dashboard';
-        // $data['karyawan'] = $this->model('KaryawanModel')->getApproveKaryawan();
         $this->view('templates/header', $data);
         $this->view('dashboard/index', $data);
         $this->view('templates/footer');
